@@ -103,7 +103,16 @@ const landing = () => {
       </div>
 
       <div className="relative z-10 md:flex items-center justify-center min-h-screen mt-36 md:mt-0">
-        <div className="text-center md:text-left">
+        <div className="absolute top-96 md:top-52 left-0 z-0">
+          <Image
+            src={leftFlower}
+            alt="left flowers"
+            width={900}
+            height={500}
+            className=""
+          />
+        </div>
+        <div className="text-center md:text-left z-10">
           <h1 className="text-6xl font-handwriting">
             <span className="text-blue-600">Hi, I'm</span>
             <span className="ml-2 text-pink-500">Samarjit</span>
@@ -112,28 +121,18 @@ const landing = () => {
             Software engineer by day, caffeine-fueled coder by night.
           </p>
         </div>
-        <div className="">
-          <Image src={punk} width={500} height={500} alt="punk" />
+        <div className="z-10">
+          <Image src={punk} width={500} height={500} alt="punk" className="" />
         </div>
-      </div>
-
-      <div className="absolute bottom-0 lg:top-80 left-0 z-0">
-        <Image
-          src={leftFlower}
-          alt="left flowers"
-          width={900}
-          height={10}
-          className=""
-        />
-      </div>
-      <div className="absolute bottom-0 lg:top-80 right-0 z-0">
-        <Image
-          src={rightFlower}
-          alt="left flowers"
-          width={900}
-          height={10}
-          className=""
-        />
+        <div className="absolute top-96 md:top-52 right-0 z-0">
+          <Image
+            src={rightFlower}
+            alt="left flowers"
+            width={900}
+            height={500}
+            className=""
+          />
+        </div>
       </div>
     </div>
   );
