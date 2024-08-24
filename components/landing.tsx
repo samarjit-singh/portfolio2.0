@@ -8,97 +8,82 @@ const landing = () => {
   return (
     <div>
       <div className="absolute top-0 left-0 w-full h-full flex overflow-hidden">
-        <div className="flex animate-marquee">
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
-          <Image
-            src={cluds}
-            alt="clouds"
-            className="w-[280px] h-[300px] mr-4"
-          />
+        <div className="relative flex overflow-x-hidden">
+          <div className="animate-marquee whitespace-nowrap flex">
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+          </div>
+
+          <div className="hidden absolute top-0 py-12 animate-marquee whitespace-nowrap md:flex">
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+            <Image
+              src={cluds}
+              alt="clouds"
+              className="w-[280px] h-[300px] mr-4"
+            />
+          </div>
         </div>
       </div>
 
