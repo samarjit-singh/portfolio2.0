@@ -117,7 +117,7 @@ const landing = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-36 lg:top-80 left-0 z-0">
+      <div className="absolute bottom-0 lg:top-80 left-0 z-0">
         <Image
           src={leftFlower}
           alt="left flowers"
@@ -126,7 +126,7 @@ const landing = () => {
           className=""
         />
       </div>
-      <div className="absolute bottom-36 lg:top-80 right-0 z-0">
+      <div className="absolute bottom-0 lg:top-80 right-0 z-0">
         <Image
           src={rightFlower}
           alt="left flowers"
