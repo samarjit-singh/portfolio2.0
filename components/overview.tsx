@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Backend from "../public/backend-dev.png";
 import Frontend from "../public/frontend-dev.png";
+import snake from "../public/snake.png";
 
 const overview = () => {
   return (
@@ -32,6 +33,13 @@ const overview = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="absolute bottom-0 lg:right-60">
+        <Image
+          src={snake}
+          alt="snake"
+          className="hidden lg:block w-[280px] h-[300px] rotate-12 mr-4"
+        />
       </div>
     </div>
   );
