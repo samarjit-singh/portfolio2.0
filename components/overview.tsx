@@ -6,11 +6,11 @@ import snake from "../public/snake.png";
 
 const overview = () => {
   return (
-    <div className="oi-regular w-full h-full flex items-center justify-center overflow-hidden">
+    <div className="oi-regular w-full h-full flex items-center justify-center overflow-hidden relative mt-20 lg:mt-10">
       <div className="p-4 lg:ml-[180px] lg:p-28">
         <p className="text-xl text-pink-500">Intrduction</p>
         <h2 className="text-4xl text-blue-600">Overview.</h2>
-        <p className="lg:w-[70%] text-3xl mt-4 text-wrap text-center lg:text-left text-yellow-800">
+        <p className="lg:w-[70%] text-3xl mt-4 text-wrap text-center lg:text-left text-yellow-900">
           I'm a full-stack wizard who codes both frontends that dazzle and
           backends that don’t break (well, most of the time). Need an app that
           won’t crash and burn?
@@ -30,14 +30,14 @@ const overview = () => {
               className="w-[280px] h-[300px] mr-4"
             />
           </div>
+          <div className="flex items-center justify-center absolute bottom-0 right-0 lg:right-60">
+            <Image
+              src={snake}
+              alt="snake"
+              className="w-[100px] lg:w-[280px] h-[120px] lg:h-[300px] rotate-12 mr-4"
+            />
+          </div>
         </div>
-      </div>
-      <div className="absolute bottom-0 lg:right-60">
-        <Image
-          src={snake}
-          alt="snake"
-          className="hidden lg:block w-[280px] h-[300px] rotate-12 mr-4"
-        />
       </div>
     </div>
   );

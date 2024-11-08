@@ -88,7 +88,7 @@ const landing = () => {
       </div>
 
       <div className="relative z-10 md:flex items-center justify-center min-h-screen mt-36 md:mt-0">
-        <div className="absolute top-96 md:top-52 left-0 z-0">
+        <div className="absolute bottom-0 md:top-52 left-0 z-0">
           <Image
             src={leftFlower}
             alt="left flowers"
@@ -97,7 +97,7 @@ const landing = () => {
             className=""
           />
         </div>
-        <div className="text-center md:text-left z-10">
+        <div className="text-center md:text-left z-10 lg:ml-32">
           <h1 className="text-4xl oi-regular">
             <span className="text-blue-600">Hi, I'm</span>
             <span className="ml-2 text-pink-500">Samarjit</span>
@@ -111,7 +111,7 @@ const landing = () => {
         <div className="z-10">
           <Image src={punk} width={500} height={500} alt="punk" className="" />
         </div>
-        <div className="absolute top-96 md:top-52 right-0 z-0">
+        <div className="absolute bottom-0 md:top-52 right-0 z-0">
           <Image
             src={rightFlower}
             alt="left flowers"

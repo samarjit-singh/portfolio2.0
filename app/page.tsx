@@ -3,7 +3,7 @@ import Overview from "@/components/overview";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen bg-notebook bg-yellow-50 font-myfont overflow-hidden">
+    <main className="min-h-screen bg-notebook bg-yellow-50 font-myfont overflow-hidden">
       <Landing />
       <Overview />
     </main>
