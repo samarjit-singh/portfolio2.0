@@ -6,7 +6,7 @@ import snake from "../public/snake.png";
 
 const overview = () => {
   return (
-    <div className="font-handwriting w-full h-full flex items-center justify-center overflow-hidden">
+    <div className="oi-regular w-full h-full flex items-center justify-center overflow-hidden">
       <div className="p-4 lg:ml-[180px] lg:p-28">
         <p className="text-2xl">Intrduction</p>
         <h2 className="text-6xl text-blue-600">Overview.</h2>

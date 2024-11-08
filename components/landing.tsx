@@ -98,13 +98,15 @@ const landing = () => {
           />
         </div>
         <div className="text-center md:text-left z-10">
-          <h1 className="text-6xl font-handwriting">
+          <h1 className="text-4xl oi-regular">
             <span className="text-blue-600">Hi, I'm</span>
             <span className="ml-2 text-pink-500">Samarjit</span>
           </h1>
-          <p className="text-4xl font-handwriting text-blue-600">
-            Software engineer by day, caffeine-fueled coder by night.
-          </p>
+          <div className="text-4xl oi-regular text-blue-600 flex flex-col mt-5 gap-1">
+            <p>Software engineer by day,</p>
+            <p className="text-yellow-900">caffeine-fueled</p>
+            <p>coder by night.</p>
+          </div>
         </div>
         <div className="z-10">
           <Image src={punk} width={500} height={500} alt="punk" className="" />

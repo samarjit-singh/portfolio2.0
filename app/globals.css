@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oi&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,5 +9,8 @@
     background: linear-gradient(to bottom, transparent 95%, #cfcfcf 95%) 0 0/100%
         24px,
       linear-gradient(to right, #cfcfcf 1px, transparent 1px) 0 0/24px 24px;
+  }
+  .oi-regular {
+    font-family: "Oi", serif;
   }
 }
