@@ -1,6 +1,7 @@
 import Landing from "@/components/landing";
 import Overview from "@/components/overview";
 import Footer from "@/components/footer";
+import CartoonMonitor from "@/components/CartoonMonitor";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Landing />
       <Overview />
       <Footer />
+      <CartoonMonitor />
     </main>
   );
 }
